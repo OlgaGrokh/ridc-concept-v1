@@ -592,6 +592,9 @@ body.g3 .pf-map{display:none}body.g3.pb .pf-map{display:block}body.g3.pb .pf-ip,
 @media(prefers-reduced-motion:reduce){.stats .link-line{animation:none}}
 /* the portal arc: at first three circles and a thin line; then the gradient line draws from Russia to India and its colour flows */
 .portal__fig .ill .draw{opacity:0!important}.portal__fig .ill .bg{opacity:1!important}
+/* the rate plaque on narrow screens (under the hero text): the same two rows (Olga 24.11) */
+@media(max-width:759px){.hero--v2 .fx{flex-direction:column!important;align-items:stretch!important;gap:6px!important;padding:8px 14px 9px!important;border-radius:14px!important;width:100%!important;max-width:440px!important;box-sizing:border-box}
+ .hero--v2 .fx .fx__row{justify-content:space-between}.hero--v2 .fx .fx__note{display:flex;justify-content:space-between;align-items:center;gap:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,.16);white-space:normal}}
 /* the footer logo */
 .foot .flogo svg{height:30px;width:auto;display:block}.foot .fl{display:flex;align-items:center;gap:16px}
 /* ---- the switches of the comparison */
